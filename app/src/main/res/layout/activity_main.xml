@@ -42,29 +42,7 @@
         android:layout_below="@+id/txt3"
         android:layout_alignParentStart="true"
         android:layout_marginTop="56dp"
-        android:id="@+id/btnCalcular"
-        android:layout_alignParentEnd="true"
-        android:background="?android:attr/colorFocusedHighlight" />
-
-    <Button
-        android:text="Semiperímetro"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="15dp"
-        android:id="@+id/button2"
-        android:layout_below="@+id/btnCalcular"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentEnd="true"
-        android:background="?android:attr/colorFocusedHighlight" />
-
-    <Button
-        android:text="Perímetro"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="19dp"
-        android:id="@+id/button3"
-        android:layout_below="@+id/button2"
-        android:layout_alignParentStart="true"
+        android:id="@+id/btnCalculo"
         android:layout_alignParentEnd="true"
         android:background="?android:attr/colorFocusedHighlight" />
 
@@ -80,4 +58,26 @@
         android:layout_alignParentTop="true"
         android:layout_alignStart="@+id/txt2"
         android:background="@android:drawable/editbox_dropdown_light_frame" />
+
+    <Button
+        android:text="Semiperímetro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:id="@+id/btnSemi"
+        android:background="?android:attr/colorFocusedHighlight"
+        android:layout_below="@+id/btnCalculo"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:text="Perímetro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
+        android:id="@+id/btnPeri"
+        android:background="?android:attr/colorFocusedHighlight"
+        android:layout_below="@+id/btnSemi"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
 </RelativeLayout>
